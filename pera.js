@@ -13,13 +13,20 @@
 // let result=cal(10, 20);
 // console.log(result);
 
-function bringSingara(money) {
+// function bringSingara(money) {
     
-    let singaraPrice = 10;
+//     let singaraPrice = 10;
 
-    let pamu = money / singaraPrice;
-    return pamu;
-}
+//     let pamu = money / singaraPrice;
+//     return pamu;
+// }
 
-result = bringSingara(500);
-console.log(result);
+// result = bringSingara(500);
+// console.log(result);
+
+function movie(){
+    return "Din-The day";
+    return "Poran";
+    return "Hawa";
+  }
+  console.log(movie());
