@@ -5,11 +5,21 @@
 // give(20);
 
 
-function calculation(a, b, c, d) {
-    let sum = a + b + c + d;
-    console.log(a, b, c, d);
+// function cal(num1,num2) {
+//     let sum = num1 + num2;
+//     return sum;
+// }
 
-    console.log(sum);
+// let result=cal(10, 20);
+// console.log(result);
+
+function bringSingara(money) {
+    
+    let singaraPrice = 10;
+
+    let pamu = money / singaraPrice;
+    return pamu;
 }
 
-calculation(12, 8, 4, 1);
+result = bringSingara(500);
+console.log(result);
